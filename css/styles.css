@@ -33,9 +33,9 @@
   padding-bottom: 30px;
 }
 
-@media (max-width:800px) {
+@media (min-width:800px) {
   .footer-image {
-    margin-left: 37%;
+    margin-left: 43%;
   }
 }
 
