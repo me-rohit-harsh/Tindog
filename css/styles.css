@@ -137,8 +137,18 @@
   z-index: 1;
   background-color: white;
   padding-top: 30px;
+  width: 100%;
 }
-
+@media (min-width:1500px) {
+  .footer-image{
+    margin-left: 47%;
+  }
+}
+@media  (max-width:1500px) {
+  .footer-image{
+    margin-left: 45%;
+  }
+}
 @media (max-width:1200px) {
   .dog {
     position: absolute;
