@@ -155,7 +155,11 @@
     padding-top: 0;
   }
 }
-
+@media (max-width:1100px) {
+  .footer-image{
+    margin-left: 43%;
+  }
+}
 .font-size {
   font-family: 'Russo One', serif;
   color: white;
